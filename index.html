@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <title>Jogo da Velha</title>
+</head>
+<body>
+  <h2 style="margin-bottom: 30px;">Jogo da Velha</h2>
+  <h4 id="response" style="margin-bottom: 10px;">é a vez do jogador 1 (❌)</h4>
+  <table>
+    <tr>
+      <td class="casa" id="casa1" onclick="jdv('#casa1')">💠</td>
+      <td class="casa" id="casa2" onclick="jdv('#casa2')">💠</td>
+      <td class="casa" id="casa3" onclick="jdv('#casa3')">💠</td>
+    </tr>
+    <tr>
+      <td class="casa" id="casa4" onclick="jdv('#casa4')">💠</td>
+      <td class="casa" id="casa5" onclick="jdv('#casa5')">💠</td>
+      <td class="casa" id="casa6" onclick="jdv('#casa6')">💠</td>
+    </tr>
+    <tr>
+      <td class="casa" id="casa7" onclick="jdv('#casa7')">💠</td>
+      <td class="casa" id="casa8" onclick="jdv('#casa8')">💠</td>
+      <td class="casa" id="casa9" onclick="jdv('#casa9')">💠</td>
+    </tr>
+  </table>
+  <button onclick="restart()" style="margin-top: 20px;">restart</button>
+</body>
+</html>
